@@ -1,20 +1,24 @@
-# Flood Resilience Digital Twin (FReDT)
-![image](https://github.com/GeospatialResearch/Digital-Twins/assets/41398636/b7b9da6c-3895-46f5-99dc-4094003b2946)
+# Ōtākaro Digital Twin
+![image](https://github.com/user-attachments/assets/37863f5e-d50d-4c75-b7a5-49258385e2e3)
 
 
-## Introduction
+## Purpose of the Ōtākaro Digital Twin
+"To establish an accessible & innovative platform to collect & communicate knowledge about the Ōtākaro River, serving as a tool to give voice to the Ōtākaro and its importance to the community."
 
-According to the National Emergency Management Agency, flooding is the greatest hazard in New Zealand, in terms of frequency, losses and civil defence emergencies. 
-With major flood events occurring on average every 8 months [(New Zealand – FloodList)](https://floodlist.com/tag/new-zealand),
-it is necessary to produce high precision flood models and in order to do better planning, risk assessment and response to flood events.
+The platform will aim to foster collaboration to support and encourage:
+- Holistic decision making & governance, to restore te mauri o te awa,
+- Environmental health and resilience outcomes,
+- Representation of the mauri of the Ōtākaro and;
+- Amplify the significance of the Ōtākaro to the region and people by allowing users to model potential future narratives and tell stories of the Ōtākaro’s past & present.
 
-The Flood Resilience Digital Twin can provide a better understanding of the degree of impact flood events can have on physical assets like buildings, roads, railways, transmission lines, etc.
-The digital twin not only represents the current status of the visualised assets but also how they will perform/react to future situations. 
-The digital twin, when used to run flood models combined with other sources of information can allow us to make predictions.
+The Ōtākaro Digital Twin purpose is guided by the Te Mana o te Wai framework and aims to be adaptable to other locations and environments. 
 
-Data for analysis and modelling are collected from open data portals provided by multiple organisations or data providers such as LINZ, StatsNZ, opentopography, NIWA, MFE, and more.
+## Background
+The Ōtākaro Digital Twin was produced by the Geospatial Research Institute (GRI) and Building Innovation Partnership at University of Canterbury, New Zealand.
+It was created for Christchurch City Council, using a fork of [GRI's Spatial Digital Twin](https://github.com/GeospatialResearch/Digital-Twins) backend project.
+Code developed specifically for the Ōtākaro Digital Twin resides within the `otakaro/` directory, and is owned by Christchurch City Council.
 
-See our [draft paper for Journal of Open Source Software](paper/paper.pdf) for more details.
+The Ōtākaro Digitial Twin front-end is based on [Terriajs/TerriaMap](https://github.com/TerriaJS/TerriaMap), via [our fork](https://github.com/GeospatialResearch/TerriaMapOtakaro).
 
 ## Basic running instructions
 The following list defines the basic steps required to set up and run the digital twin.
@@ -55,5 +59,5 @@ Blank fields to fill in include things like the `POSTGRES_PASSWORD` variable and
 1. The API is available by default on <http://localhost:5000>. Visit <https://geospatialresearch.github.io/Digital-Twins/api> for API documentation.
 
 
-## Setup for FReDT project software developers
-[Visit our wiki](https://github.com/GeospatialResearch/Digital-Twins/wiki/) for some instructions on how to set up your development machine to work with on the FReDT project.
+## Setup for ŌDT project software developers
+[Visit our the core digital-twin wiki](https://github.com/GeospatialResearch/Digital-Twins/wiki/) for some instructions on how to set up your development machine to work with on the FReDT project.
