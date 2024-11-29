@@ -60,4 +60,4 @@ Blank fields to fill in include things like the `POSTGRES_PASSWORD` variable and
 
 
 ## Setup for ŌDT project software developers
-[Visit our the core digital-twin wiki](https://github.com/GeospatialResearch/Digital-Twins/wiki/) for some instructions on how to set up your development machine to work with on the FReDT project.
+[Visit our the wiki](https://github.com/GeospatialResearch/Otakaro-Digital-Twin/wiki/) for some instructions on how to set up your development machine to work with on the ŌDT project or deploy the software.
