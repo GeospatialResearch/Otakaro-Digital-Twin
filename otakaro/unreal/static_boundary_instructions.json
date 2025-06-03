@@ -1,0 +1,30 @@
+{
+  "instruction_1": {
+    "data_provider": "LINZ",
+    "layer_id": 101290,
+    "table_name": "unreal_building_outlines",
+    "unique_column_name": "building_id",
+    "url": "https://data.linz.govt.nz/layer/101290-nz-building-outlines/"
+  },
+  "instruction_2": {
+    "data_provider": "LINZ",
+    "layer_id": 50823,
+    "table_name": "unreal_land_parcels",
+    "unique_column_name": "id",
+    "url": "https://data.linz.govt.nz/layer/50823-nz-primary-land-parcels/"
+  },
+  "instruction_3": {
+    "data_provider": "LINZ",
+    "layer_id": 105689,
+    "table_name": "unreal_addresses",
+    "unique_column_name": "address_id",
+    "url": "https://data.linz.govt.nz/layer/105689-nz-addresses/"
+  },
+  "instruction_4": {
+    "data_provider": "LINZ",
+    "layer_id": 53382,
+    "table_name": "unreal_roads",
+    "unique_column_name": "road_id",
+    "url": "https://data.linz.govt.nz/layer/53382-nz-roads-addressing/"
+  }
+}
